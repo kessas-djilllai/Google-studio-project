@@ -1,0 +1,28 @@
+.space-game {
+  background-color: black;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.space-game .star {
+  width: 2px;
+  height: 2px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.space-game .spaceship {
+  width: 50px;
+  height: 50px;
+  background-color: gray;
+  position: absolute;
+  bottom: 10px;
+}
+
+.space-game .bullet {
+  width: 2px;
+  height: 10px;
+  background-color: yellow;
+  position: absolute;
+}
